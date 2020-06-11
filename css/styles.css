@@ -150,17 +150,25 @@ a { text-decoration: none; }
 /* ============================================= */
 .btn { margin-top: 15px; width: 100%; color: #fff; border: none; padding: 10px 0; text-transform: uppercase; border-radius: 5px; }
 
-.btn:hover { background-color: #83e7fd; }
-
 .default { background-color: #51ddfc; }
+
+.default:hover { background-color: #6ae2fc; }
 
 .error { background-color: #e4757a; }
 
+.error:hover { background-color: #e88a8f; }
+
 .info { background-color: #927bc1; }
+
+.info:hover { background-color: #a08cc9; }
 
 .success { background-color: #63cc82; }
 
+.success:hover { background-color: #76d291; }
+
 .warning { background-color: #fd7856; }
+
+.warning:hover { background-color: #fd8c6f; }
 
 .img-avatar { display: block; margin-left: auto; margin-right: auto; margin-top: 10px; max-width: 100%; max-height: 100%; }
 
