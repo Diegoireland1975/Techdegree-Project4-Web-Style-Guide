@@ -150,6 +150,8 @@ a { text-decoration: none; }
 /* ============================================= */
 .btn { margin-top: 15px; width: 100%; color: #fff; border: none; padding: 10px 0; text-transform: uppercase; border-radius: 5px; }
 
+.btn:hover { color: #777; }
+
 .default { background-color: #51ddfc; }
 
 .error { background-color: #e4757a; }
