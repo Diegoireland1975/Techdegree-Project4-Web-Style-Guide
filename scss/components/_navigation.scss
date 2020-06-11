@@ -16,7 +16,7 @@
 
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: $color-primary;
 }
 
 /* ============================================= */
@@ -34,7 +34,7 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $color-tertiary;
 }
 
 .error {
