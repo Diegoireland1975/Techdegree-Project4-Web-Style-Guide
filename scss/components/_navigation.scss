@@ -30,27 +30,39 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  &:hover {
-    background-color: lighten($color-tertiary, 10%);
-  }
 }
 
 .default {
   background-color: $color-tertiary;
+  &:hover {
+    background-color: lighten($color-tertiary, 5%);
+  }
 }
 
 .error {
   background-color: #e4757a;
+  &:hover {
+    background-color: lighten(#e4757a, 5%);
+  }
 }
 
 .info {
   background-color: #927bc1;
+  &:hover {
+    background-color: lighten(#927bc1, 5%);
+  }
 }
 
 .success {
   background-color: #63cc82;
+  &:hover {
+    background-color: lighten(#63cc82, 5%);
+  }
 }
 
 .warning {
   background-color: #fd7856;
+  &:hover {
+    background-color: lighten(#fd7856, 5%);
+  }
 }
