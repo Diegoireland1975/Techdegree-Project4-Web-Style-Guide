@@ -1,16 +1,5 @@
-//Partial Imports
-@import "base/normalise";
-@import "base/typography";
-@import "base/index";
-
-@import "components/buttons";
-@import "components/forms";
-@import "components/grid";
-@import "components/images";
-@import "components/index";
-@import "components/media-queries";
-@import "components/navigation";
+// ******Sub folder Imports**********
 
 @import "utilities/index";
-@import "utilities/mixins";
-@import "utilities/variables";
+@import "base/index";
+@import "components/index";
