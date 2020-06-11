@@ -12,11 +12,10 @@
   display: block;
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-.nav-link:hover {
-  color: $white;
-  background-color: $color-primary;
+  &:hover {
+    color: $white;
+    background-color: $color-primary;
+  }
 }
 
 /* ============================================= */
