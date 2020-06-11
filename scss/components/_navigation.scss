@@ -30,6 +30,9 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  &:hover {
+    color: $color-secondary;
+  }
 }
 
 .default {
